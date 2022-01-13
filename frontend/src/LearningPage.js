@@ -26,7 +26,7 @@ const port = process.env.PORT || 8080;
  * Url to backend.
  * @const {String}
  */
-const url = ("/words");
+//const url = ("/words");
 
 /**
  * Styling for table cells.
@@ -77,7 +77,7 @@ class LearningPage extends React.Component {
    * componentDidMount to load data from database when accesing page
    */
   componentDidMount() {
-    axios.get(url).then((res) => {
+    axios.get("/words").then((res) => {
       const words = res.data;
       this.setState({ words });
     });
