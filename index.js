@@ -17,7 +17,7 @@ const port = process.env.PORT || 8080;
 app.use(express.json());
 
 app.listen(port, () => {
-  console.log(`Example app listening at {server.address().port}`);
+  console.log(`Example app listening at ${server.address().port}`);
 });
 
 connection.connect();
