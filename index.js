@@ -24,7 +24,8 @@ connection.connect();
 
 app.use(cors());
 
-app.use(express.static("frontend/build"));
+//app.use(express.static("frontend/build"));
+let data = fetch("/words");
 
 app.get("/words", (req, res) => {
   connection.findAll((err, words) => {
