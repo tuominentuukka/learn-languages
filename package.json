@@ -1,0 +1,31 @@
+{
+  "name": "learn-languages-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuominentuukka/learn-languages-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuominentuukka/learn-languages-app/issues"
+  },
+  "homepage": "https://github.com/tuominentuukka/learn-languages-app#readme",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.8",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1"
+  }
+}
