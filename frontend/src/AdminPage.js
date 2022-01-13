@@ -27,7 +27,7 @@ const port = process.env.PORT || 8080;
  * Url to backend.
  * @const {String}
  */
-const url = `http://localhost:${port}/words`;
+const url = server.address().port;
 
 /**
  * Styling for table cells.
